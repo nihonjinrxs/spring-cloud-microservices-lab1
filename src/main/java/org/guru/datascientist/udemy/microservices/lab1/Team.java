@@ -1,10 +1,17 @@
 package org.guru.datascientist.udemy.microservices.lab1;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
 /**
  * Created by ryan on 3/7/16.
  */
+@Entity
 public class Team {
 
+    @Id
+    @GeneratedValue
     Long id;
     String name;
     String location;
