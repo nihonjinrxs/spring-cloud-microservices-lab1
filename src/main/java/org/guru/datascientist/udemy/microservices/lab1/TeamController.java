@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * Created by ryan on 3/7/16.
  */
-@RestController
+
 public class TeamController {
 
     @Autowired TeamRepository teamRepository;
